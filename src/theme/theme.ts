@@ -10,7 +10,7 @@ const theme = createTheme({
       main: "#1B263B", // Un azul-gris más suave
     },
     background: {
-      default: "#F8F9FA", // Casi blanco, muy leve gris
+      default: "#e5e4e2", // Casi blanco, muy leve gris
     },
     text: {
       primary: "#0D1B2A", // Texto principal azul oscuro

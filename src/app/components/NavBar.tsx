@@ -13,6 +13,8 @@ import Button from "@mui/material/Button";
 import { useRouter } from "next/navigation";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
+import Image from "next/image";
+import FinSightLogo from "@/assets/FinSightLogo.png";
 
 const pages = [
   { name: "Inicio", path: "/" },
@@ -43,15 +45,20 @@ const Navbar = () => {
   return (
     <AppBar position="static" color="primary">
       <Toolbar>
-        {/* Logo o nombre del sitio */}
+        <Image
+          src={FinSightLogo}
+          noWrap
+          component="div"
+          alt="FinSight Logo"
+          width={65}
+          height={65}
+        />
         <Typography
           variant="h6"
           noWrap
           component="div"
           sx={{ flexGrow: 1, display: { xs: "flex" } }}
-        >
-          FinSight
-        </Typography>
+        ></Typography>
 
         {/* Versión mobile: ícono de menú */}
         {isMobile ? (

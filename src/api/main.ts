@@ -1,11 +1,16 @@
-import { serve } from 'https://deno.land/std@0.224.0/http/server.ts';
-import { create, verify, getNumericDate, Payload } from 'https://deno.land/x/djwt@v3.0.1/mod.ts';
-import { usersCollection } from '../database/db.ts';
-import { connectToDatabase } from '../database/mongo.ts';
+import { serve } from 'https://deno.land/std@0.224.0/http/server.ts'; //revisarlo
+//import { create, verify, getNumericDate, Payload } from 'https://deno.land/x/djwt@v3.0.1/mod.ts';
+import { usersCollection } from '../database/collections/users.ts';
+import { connectToDatabase } from '../database/client.ts';
+import { v4 as uuidv4 } from 'uuid';
 
+//Conexión a base de datos
+await connectToDatabase();
+
+//en el mismo archivo del createKey
 const JWT_SECRET = 'mi_clave_super_secreta';
 
-// ✅ Ahora generamos una CryptoKey
+//archivo aparte para la clave secreta
 async function createKey() {
   return await crypto.subtle.importKey(
     'raw',
@@ -16,49 +21,46 @@ async function createKey() {
   );
 }
 
-const key = await createKey();
+//const key = await createKey();
 
-const USER = { email: 'admin@demo.com', password: '1234' };
-
-async function createJWT(email: string) {
-  return await create(
-    { alg: 'HS256', typ: 'JWT' },
-    {
-      email,
-      exp: getNumericDate(60 * 60),
-    },
-    key
-  );
-}
-
-async function verifyToken(req: Request) {
-  const auth = req.headers.get('authorization');
-  if (!auth?.startsWith('Bearer ')) return false;
-  const token = auth.slice(7);
-  try {
-    const payload = (await verify(token, key)) as Payload;
-    return payload;
-  } catch {
-    return false;
+//FUNCION PARA AGREGAR USUARIO EN UN ARCHIVO APARTE
+async function addUser(email: string, password: string) {
+  const existingUser = await usersCollection.findOne({ email });
+  if (existingUser) {
+    throw new Error('Usuario ya existe');
   }
+  await usersCollection.insertOne({ userId: uuidv4(), email, password });
+  return { success: true };
 }
 
 serve(async req => {
   const url = new URL(req.url);
+
   if (url.pathname === '/register' && req.method === 'POST') {
     const { email, password } = await req.json();
+    try {
+      const result = await addUser(email, password);
+      console.log('result: ', result);
+      return new Response(JSON.stringify(result), {
+        headers: { 'Content-Type': 'application/json' },
+      });
+    } catch (err) {
+      const error = err as Error;
+      return new Response(error.message, { status: 409 });
+    }
+  }
 
-    const existingUser = await usersCollection.findOne({ email });
+  /*const existingUser = await usersCollection.findOne({ email });
     if (existingUser) {
       return new Response('Usuario ya existe', { status: 409 });
     }
-
     await usersCollection.insertOne({ email, password });
     return new Response('Usuario registrado', { status: 201 });
-  }
-
+  */
+  /*
   if (url.pathname === '/login' && req.method === 'POST') {
     const { email, password } = await req.json();
+    const USER = { email: 'admin@demo.com', password: '1234' };
     if (email === USER.email && password === USER.password) {
       const token = await createJWT(email);
       return new Response(JSON.stringify({ token }), {
@@ -67,12 +69,33 @@ serve(async req => {
     }
     return new Response('Credenciales inválidas', { status: 401 });
   }
-
+*/
+  /*
   if (url.pathname === '/protected' && req.method === 'GET') {
+    console.log('req: ', req);
+
     const payload = await verifyToken(req);
     if (!payload) return new Response('Acceso denegado', { status: 403 });
     return new Response(`Hola ${payload.email}, acceso concedido`);
   }
-
+    */
   return new Response('Not found', { status: 404 });
 });
+/*
+async function createJWT(email: string) {
+  return await create({ alg: 'HS256', typ: 'JWT' }, { email, exp: getNumericDate(60 * 60) }, key);
+}
+
+async function verifyToken(req: Request) {
+  const auth = req.headers.get('authorization');
+  console.log(auth);
+  if (auth?.startsWith('Bearer ') == false) return false;
+
+  const token = auth?.slice(7);
+
+  try {
+    const payload = (await verify(token!, key)) as Payload;
+    return payload;
+  } catch {
+    return false;
+  }*/

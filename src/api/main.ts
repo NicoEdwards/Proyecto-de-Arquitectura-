@@ -1,10 +1,13 @@
 import { serve } from 'https://deno.land/std@0.224.0/http/server.ts'; //revisarlo
-//import { create, verify, getNumericDate, Payload } from 'https://deno.land/x/djwt@v3.0.1/mod.ts';
+import { create, verify, getNumericDate, Payload } from 'https://deno.land/x/djwt@v3.0.1/mod.ts';
 import { create, getNumericDate } from 'https://deno.land/x/djwt@v3.0.1/mod.ts';
 import { connectToDatabase } from '../database/client.ts';
 import addUser from './add-user.ts';
 import getUser from './get-user.ts';
+import { extraerPromocionesDesdeUrl } from "./fetch_html.ts";
 
+const promociones = await extraerPromocionesDesdeUrl("https://www.bancofalabella.cl/descuentos");
+console.log("Promociones obtenidas:", promociones);
 //Conexión a base de datos
 await connectToDatabase();
 

@@ -50,12 +50,12 @@ serve(async req => {
   // Ruta para hacer web scraping
   if (url.pathname === '/fetch-html' && req.method === 'GET') {
     const fixedUrl = 'https://www.bancofalabella.cl/descuentos'; // Cambia esta URL por la que desees scrapear
-  
+
     const html = await fetchHTML(fixedUrl);
     if (html === null) {
       return new Response('Failed to fetch HTML.', { status: 500 });
     }
-  
+
     return new Response(html, {
       headers: { 'Content-Type': 'text/html' },
     });

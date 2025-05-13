@@ -1,70 +1,45 @@
 import { launch } from 'https://deno.land/x/astral/mod.ts';
 
-const browser = await launch();
-const page = await browser.newPage();
-
-await page.goto('https://www.bancofalabella.cl/descuentos');
-await page.waitForTimeout(5000); // Espera que cargue el contenido
-
-// Extrae textos con % desde el DOM
-const texts = await page.evaluate(() => {
-  const elements = Array.from(document.querySelectorAll('body *'));
-  return elements
-    .map(el => el.textContent?.trim())
-    .filter(text => text && text.includes('%') && text.length < 200);
-});
-
-// Días de la semana disponibles
-const dias = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'];
-
-function detectarDia(texto: string): string {
-  const diaEncontrado = dias.find(dia => texto.toLowerCase().includes(dia.toLowerCase()));
-  return diaEncontrado || 'Sin día específico';
+interface Promocion {
+  titulo: string;
+  descripcion: string;
+  dia: string;
 }
 
-// Normaliza y agrupa promociones por día
-function agruparPorDia(promos: string[]): Record<string, string[]> {
-  const agrupado: Record<string, Map<string, string>> = {};
-
-  for (const promo of promos) {
-    const dia = detectarDia(promo);
-    const base = promo
-      .replace(/Exclusivo.*$/i, '')
-      .replace(/sin tope.*$/i, '')
-      .replace(/\(.*?\)/g, '')
-      .replace(/[\n\r]/g, '')
-      .replace(/\s+/g, ' ')
-      .trim();
-
-    if (!agrupado[dia]) agrupado[dia] = new Map();
-    if (!agrupado[dia].has(base) || promo.length < agrupado[dia].get(base)!.length) {
-      agrupado[dia].set(base, promo);
-    }
-  }
-
-  // Convierte los Map a arrays simples
-  const resultado: Record<string, string[]> = {};
-  for (const [dia, mapa] of Object.entries(agrupado)) {
-    resultado[dia] = Array.from(mapa.values());
-  }
-
-  return resultado;
-}
-
-export async function fetchHTML(url: string): Promise<Record<string, string[]>> {
+async function extraerPromociones(url: string): Promise<Promocion[]> {
   const browser = await launch();
   const page = await browser.newPage();
 
   await page.goto(url);
-  await page.waitForTimeout(5000); // Espera que cargue el contenido.
+  await page.waitForTimeout(5000);
 
-  const texts = await page.evaluate(() => {
-    const elements = Array.from(document.querySelectorAll('body *'));
-    return elements
-      .map(el => el.textContent?.trim())
-      .filter(text => text && text.includes('%') && text.length < 200);
+  const data = await page.evaluate(() => {
+    const contenedor = document.querySelector('div.benefits-list');
+    if (!contenedor) return [];
+
+    const promos: { titulo: string; descripcion: string; dia: string }[] = [];
+
+    const beneficios = contenedor.querySelectorAll('app-benefit');
+
+    beneficios.forEach(benefit => {
+      const titulo = benefit.querySelector('app-benefit-body h5')?.textContent?.trim() ?? '';
+      const descripcion = benefit.querySelector('app-benefit-body .benefit-body__text')?.textContent?.trim() ?? '';
+      const dia = benefit.querySelector('app-benefit-footer span')?.textContent?.trim() ?? 'Sin día específico';
+
+      if (titulo.includes('%')) {
+        promos.push({ titulo, descripcion, dia });
+      }
+    });
+
+    return promos;
   });
 
   await browser.close();
-  return agruparPorDia(texts);
+  return data;
+}
+
+if (import.meta.main) {
+  const promociones = await extraerPromociones('https://www.bancofalabella.cl/descuentos');
+  await Deno.writeTextFile('falabella.json', JSON.stringify(promociones, null, 2));
+  console.log('✅ Archivo "falabella.json" generado con éxito');
 }

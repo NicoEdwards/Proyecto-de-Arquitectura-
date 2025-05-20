@@ -2,7 +2,7 @@ import { serve } from 'https://deno.land/std@0.224.0/http/server.ts';
 import { usersCollection } from '../database/collections/users.ts';
 import { connectToDatabase } from '../database/client.ts';
 import { v4 as uuidv4 } from 'uuid';
-import { fetchHTML } from '../api/fetch_html.ts';
+import { fetchHTML } from './falabellascraping.ts';
 
 // Conexión a base de datos
 await connectToDatabase();

@@ -1,9 +1,9 @@
 {
-  "lunes": [
+  "martes": [
     {
-      "titulo": "Dunkin’",
-      "descripcion": "30% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/dunkin-dto"
+      "titulo": "Mamut",
+      "descripcion": "Hasta 40% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/mamut"
     },
     {
       "titulo": "SKY Plus",
@@ -16,14 +16,19 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/pedidosya"
     },
     {
-      "titulo": "La Fête Chocolat",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/la-fete"
+      "titulo": "Capogrossi",
+      "descripcion": "50% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/capogrossi-50visa"
     },
     {
-      "titulo": "Local Burger",
-      "descripcion": "40% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/local-burger-visa"
+      "titulo": "Fabrics",
+      "descripcion": "Hasta 40% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/fabrics"
+    },
+    {
+      "titulo": "Uber Eats: McDonald’s",
+      "descripcion": "Los martes obtén 40% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/uber-eats-mcdonalds"
     },
     {
       "titulo": "Domino’s Pizza",
@@ -34,11 +39,6 @@
       "titulo": "Rappi",
       "descripcion": "25% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/rappi"
-    },
-    {
-      "titulo": "SteakHouse",
-      "descripcion": "40% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/steakhouse-40visa"
     },
     {
       "titulo": "FLIXBUS",
@@ -59,11 +59,6 @@
       "titulo": "KANTU",
       "descripcion": "25% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/kantu"
-    },
-    {
-      "titulo": "La Previa Bar",
-      "descripcion": "40% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/la-previa-bar-40visa"
     },
     {
       "titulo": "Glam & Co",
@@ -126,9 +121,9 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/teatro-mori"
     },
     {
-      "titulo": "EVERLAST",
-      "descripcion": "30% Presencial.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/everlast"
+      "titulo": "Sello de Raza",
+      "descripcion": "40% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/sello-de-raza-visa"
     },
     {
       "titulo": "SENIOR SUITES",
@@ -136,39 +131,19 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/senior-suites"
     },
     {
-      "titulo": "María Pompón",
-      "descripcion": "15% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/maria-pompon"
-    },
-    {
-      "titulo": "Lee",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/lee"
-    },
-    {
-      "titulo": "Wrangler",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/wrangler"
-    },
-    {
       "titulo": "ASH",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/ash-dto"
     },
     {
-      "titulo": "MOTA",
-      "descripcion": "25% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/mota"
+      "titulo": "3INA",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/3ina"
     },
     {
       "titulo": "VistAndes",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/vistandes-dto"
-    },
-    {
-      "titulo": "Cassis",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/cassis-dto"
     },
     {
       "titulo": "Transvip",
@@ -201,9 +176,29 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/all-play-kids-zone"
     },
     {
+      "titulo": "LA PIZZARRA",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/la-pizzarra"
+    },
+    {
+      "titulo": "AVIS",
+      "descripcion": "Hasta 25% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/avis-dto"
+    },
+    {
+      "titulo": "Cancagua Spa & Retreat Center",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/cancagua-spa-and-retreat-center"
+    },
+    {
       "titulo": "Trayecto Bookstore",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/trayecto-bookstore"
+    },
+    {
+      "titulo": "Rotter y Krauss",
+      "descripcion": "Hasta 35% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/rotter-y-krauss"
     },
     {
       "titulo": "ANWO",
@@ -231,39 +226,14 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/a-brasas"
     },
     {
-      "titulo": "LA PIZZARRA",
-      "descripcion": "20% dto",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/la-pizzarra"
-    },
-    {
       "titulo": "Casa Paniri",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/casa-paniri-dto"
     },
     {
-      "titulo": "Novu",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/novu"
-    },
-    {
-      "titulo": "Don Cucho",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/don-cucho"
-    },
-    {
-      "titulo": "CEVICHAZO 102",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/cevichazo-102"
-    },
-    {
       "titulo": "La Biferia",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/la-biferia"
-    },
-    {
-      "titulo": "SUSHI THAI",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/sushi-thai"
     },
     {
       "titulo": "Patio 511",
@@ -299,6 +269,11 @@
       "titulo": "CONFITERIA LARBOS",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/confiteria-larbos"
+    },
+    {
+      "titulo": "NOLIA",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/nolia-dto"
     },
     {
       "titulo": "Make Make",
@@ -349,6 +324,26 @@
       "titulo": "MALABAR",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/malabar"
+    },
+    {
+      "titulo": "Chile Lindo",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/chile-lindo"
+    },
+    {
+      "titulo": "SUSHI THAI",
+      "descripcion": "40% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/sushi-thai-40dto"
+    },
+    {
+      "titulo": "Pasqualinos",
+      "descripcion": "40% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/pasqualinos-arica-visa40"
+    },
+    {
+      "titulo": "Akami Sushi Bar",
+      "descripcion": "40% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/akami-sushi-bar-40visa"
     },
     {
       "titulo": "Deysa Care",
@@ -411,9 +406,9 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/ancares-cafe"
     },
     {
-      "titulo": "Kalani Wellness SPA",
-      "descripcion": "Hasta 20% dto",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/kalani-wellness-spa"
+      "titulo": "Blumen Haus",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/blumen-haus"
     },
     {
       "titulo": "Cine Star",
@@ -501,6 +496,11 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/santerra"
     },
     {
+      "titulo": "Fuente Peruana",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/fuente-peruana"
+    },
+    {
       "titulo": "Restaurant Colo Colo",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/restaurant-colo-colo"
@@ -529,11 +529,6 @@
       "titulo": "SABOR X2",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/sabor-x2"
-    },
-    {
-      "titulo": "HELADERIA LARRS",
-      "descripcion": "30% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/heladeria-larrs"
     },
     {
       "titulo": "Buffet Express",
@@ -566,11 +561,6 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/clinica-lipoexpress"
     },
     {
-      "titulo": "Toke",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/toke"
-    },
-    {
       "titulo": "G14",
       "descripcion": "15% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/g14"
@@ -579,11 +569,6 @@
       "titulo": "Clínica  Abedules",
       "descripcion": "Paga en 4 a 12 cuotas sin interés.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/clinica-abedulces-dto"
-    },
-    {
-      "titulo": "Dominga Bistro",
-      "descripcion": "20% dto",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/dominga-bistro"
     },
     {
       "titulo": "OASIS SPA",
@@ -614,11 +599,6 @@
       "titulo": "Gratinata Pizza",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/gratinata-pizza"
-    },
-    {
-      "titulo": "SKY BAR",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/sky-bar"
     },
     {
       "titulo": "Boru Gohan",
@@ -676,6 +656,11 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/instituto-chileno-norteamericano"
     },
     {
+      "titulo": "Terrado  Sky Bar Cavancha",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/terrado-sky-bar-cavancha"
+    },
+    {
       "titulo": "Burano",
       "descripcion": "15% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/burano"
@@ -706,11 +691,6 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/abrasas"
     },
     {
-      "titulo": "MAESTRIA",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/maestria"
-    },
-    {
       "titulo": "RUGENDAS",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/rugendas"
@@ -719,16 +699,6 @@
       "titulo": "MALDITO ARROZ",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/maldito-arroz"
-    },
-    {
-      "titulo": "Margarita Bar",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/margarita-bar"
-    },
-    {
-      "titulo": "Alebrijes",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/alebrijes"
     },
     {
       "titulo": "PAD THAI",
@@ -746,24 +716,9 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/piedra-del-aguila"
     },
     {
-      "titulo": "Emporio San Marco",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/emporio-san-marco"
-    },
-    {
       "titulo": "Club 2D",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/club-2d"
-    },
-    {
-      "titulo": "Olivia Trattoría Concepción",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/olivia-trattoria-concepcion"
-    },
-    {
-      "titulo": "Olivia Trattoria",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/olivia-trattoria"
     },
     {
       "titulo": "FreeMet",
@@ -779,11 +734,6 @@
       "titulo": "LA BARRA CARTES",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/la-barra-cartes"
-    },
-    {
-      "titulo": "Rocker Burger",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/rocker-burger"
     },
     {
       "titulo": "Sabores del Ají Seco",
@@ -819,11 +769,6 @@
       "titulo": "Kiara",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/kiara"
-    },
-    {
-      "titulo": "El Único Pollo A Las Brasas",
-      "descripcion": "20% dto",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/el-unico-pollo-a-las-brasas"
     },
     {
       "titulo": "CIRCUS BARBER SHOP",
@@ -901,11 +846,6 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/clinica-nace"
     },
     {
-      "titulo": "Saint Patrick´s Day",
-      "descripcion": "15% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/saint-patrick-day"
-    },
-    {
       "titulo": "Pollo Rey",
       "descripcion": "20% dcto",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/pollo-rey"
@@ -964,6 +904,11 @@
       "titulo": "Totto",
       "descripcion": "30% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/totto"
+    },
+    {
+      "titulo": "La Casona Belga",
+      "descripcion": "15% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/casona-belga"
     },
     {
       "titulo": "MR WRAP",
@@ -1111,11 +1056,6 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/mares-medical-aesthetics"
     },
     {
-      "titulo": "CLINICA RAMIS",
-      "descripcion": "Hasta 55% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/clinica-ramis"
-    },
-    {
       "titulo": "Clínica CRL",
       "descripcion": "Hasta 50% dcto",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/clinica-crl"
@@ -1146,19 +1086,9 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/thermikhaus"
     },
     {
-      "titulo": "Level Studio",
-      "descripcion": "20% dto",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/level-studio"
-    },
-    {
       "titulo": "ChileLentes",
       "descripcion": "Todos los días",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/chilelentes"
-    },
-    {
-      "titulo": "ZOO YORK",
-      "descripcion": "30% dto",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/zoo-york"
     },
     {
       "titulo": "Ambar Deco",
@@ -1186,11 +1116,6 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/pizzeria-domani"
     },
     {
-      "titulo": "Restaurante Bravo Temuco",
-      "descripcion": "20% dto",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/restaurante-bravo-temuco"
-    },
-    {
       "titulo": "Santo Aire",
       "descripcion": "20% dto",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/santo-aire"
@@ -1209,16 +1134,6 @@
       "titulo": "Restaurante El Copihue",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/restaurante-el-copihue"
-    },
-    {
-      "titulo": "El Naturalista",
-      "descripcion": "Hasta 20% dto",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/el-naturalista"
-    },
-    {
-      "titulo": "Perutaly",
-      "descripcion": "20% dto",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/perutaly"
     },
     {
       "titulo": "Raza Inca",
@@ -1286,6 +1201,106 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/mariabooth"
     },
     {
+      "titulo": "CANDELA BISTRO",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/candela-bistro"
+    },
+    {
+      "titulo": "Tirua Bar Restorán",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/tirua-bar-restoran"
+    },
+    {
+      "titulo": "TURIN RISTORANTE",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/turin-ristorante"
+    },
+    {
+      "titulo": "Infiltrados",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/infiltrados"
+    },
+    {
+      "titulo": "La Taberna D’Olbek",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/la-taberna-d-olbek"
+    },
+    {
+      "titulo": "Trattoria Santtino",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/trattoria-santtino"
+    },
+    {
+      "titulo": "MANHATTAN",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/manhattan"
+    },
+    {
+      "titulo": "FOGÓN CHUYACA",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/fogon-chuyaca"
+    },
+    {
+      "titulo": "SEÑOR K",
+      "descripcion": "30% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/senor-k"
+    },
+    {
+      "titulo": "Sazón Peruana",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/sazon-peruana"
+    },
+    {
+      "titulo": "CASAGIARDINO",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/casagiardino"
+    },
+    {
+      "titulo": "La Buena Pizza",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/la-buena-pizza"
+    },
+    {
+      "titulo": "JEKUS RESTOBAR",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/jekus-restobar"
+    },
+    {
+      "titulo": "BOCATTA FOOD",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/bocatta-food"
+    },
+    {
+      "titulo": "ZAMAI",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/zamai"
+    },
+    {
+      "titulo": "Mia Bar",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/mia-bar"
+    },
+    {
+      "titulo": "SOCIEDAD O306",
+      "descripcion": "20% dto",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/sociedad-o306"
+    },
+    {
+      "titulo": "Psiquis Bar",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/psiquis-bar"
+    },
+    {
+      "titulo": "Boreal Bar",
+      "descripcion": "40% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/boreal-bar-40visa"
+    },
+    {
+      "titulo": "Quercus",
+      "descripcion": "40% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/quercus-40visa"
+    },
+    {
       "titulo": "MCPARKING",
       "descripcion": "30% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/mcparking"
@@ -1296,9 +1311,29 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/estacionamiento-aeropuerto"
     },
     {
+      "titulo": "Minata Clean Beauty",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/minata-clean-beauty"
+    },
+    {
+      "titulo": "Pichara",
+      "descripcion": "Hasta 40% Online.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/pichara"
+    },
+    {
       "titulo": "DILMAH",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/dilmah"
+    },
+    {
+      "titulo": "MIRO",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/miro"
+    },
+    {
+      "titulo": "Saki",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/saki"
     },
     {
       "titulo": "VISUALIZARTE",
@@ -1306,14 +1341,204 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/visualizarte-dto"
     },
     {
-      "titulo": "MERAKI COFFEE",
+      "titulo": "Ultimate Clothing",
+      "descripcion": "25% dto adicional.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/ultimate-clothing"
+    },
+    {
+      "titulo": "Cafetería La Naranja",
+      "descripcion": "15% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/cafeteria-la-naranja"
+    },
+    {
+      "titulo": "Glowmed",
+      "descripcion": "Hasta 60% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/glowmed"
+    },
+    {
+      "titulo": "Alborada",
       "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/meraki-coffee"
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/alborada"
+    },
+    {
+      "titulo": "La Diosa",
+      "descripcion": "15% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/la-diosa"
+    },
+    {
+      "titulo": "Hacienda el Llano",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/hacienda-el-llano"
+    },
+    {
+      "titulo": "Donde Naresh",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/donde-naresh"
+    },
+    {
+      "titulo": "Quercus",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/quercus"
+    },
+    {
+      "titulo": "Paladar Restobar",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/paladar-restobar"
+    },
+    {
+      "titulo": "Restaurant Club de Toros",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/restaurant-club-de-toros"
+    },
+    {
+      "titulo": "Pampa Grill And Bar",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/pampa-grill-and-bar"
+    },
+    {
+      "titulo": "BATTIR",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/battir"
+    },
+    {
+      "titulo": "Ají Del Mar",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/aji-del-mar"
+    },
+    {
+      "titulo": "Holy Burger and Bar",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/holy-burger-and-bar"
+    },
+    {
+      "titulo": "Cinque Pizza Restaurant",
+      "descripcion": "25% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/cinque-pizza-restaurant"
+    },
+    {
+      "titulo": "Clínica Dental Plaza Bühler",
+      "descripcion": "Hasta 50% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/clinica-dental-plaza-buhler"
+    },
+    {
+      "titulo": "Ópticas Quezada & Siles",
+      "descripcion": "25% de descuento",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/opticas-quezada-siles"
+    },
+    {
+      "titulo": "TRATUR",
+      "descripcion": "22% de descuento",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/tratur"
+    },
+    {
+      "titulo": "We Love Pizza",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/we-love-pizza"
+    },
+    {
+      "titulo": "Mulata",
+      "descripcion": "20% dto",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/mulata"
+    },
+    {
+      "titulo": "Casona Amalfitana",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/casona-amalfitana"
+    },
+    {
+      "titulo": "Ciudad Vieja",
+      "descripcion": "20% dto",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/ciudad-vieja"
+    },
+    {
+      "titulo": "Citadelle",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/citadelle-dto"
+    },
+    {
+      "titulo": "Safari Restaurante",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/safari-restaurante"
+    },
+    {
+      "titulo": "NINA",
+      "descripcion": "20% dto",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/nina"
+    },
+    {
+      "titulo": "Porca",
+      "descripcion": "20% dto",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/porca"
+    },
+    {
+      "titulo": "CELIV",
+      "descripcion": "20% de descuento",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/celiv"
+    },
+    {
+      "titulo": "Osses El Pizzaiolo",
+      "descripcion": "20% dto",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/osses-el-pizzaiolo"
+    },
+    {
+      "titulo": "Faro Restaurant",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/faro-restaurant"
+    },
+    {
+      "titulo": "Barra Central",
+      "descripcion": "20% dto",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/barra-central"
+    },
+    {
+      "titulo": "Chiche Cuadra",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/chiche-cuadra"
+    },
+    {
+      "titulo": "Pasqualinos",
+      "descripcion": "15% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/pasqualinos"
+    },
+    {
+      "titulo": "Sakura",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/sakura-cafe"
+    },
+    {
+      "titulo": "Salón De Te Alma",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/salon-de-te-alma"
     },
     {
       "titulo": "Cantina Meraki",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/cantina-meraki"
+    },
+    {
+      "titulo": "Ceiba",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/ceiba"
+    },
+    {
+      "titulo": "Bibimbap",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/bibimbap-dto"
+    },
+    {
+      "titulo": "Mountain House",
+      "descripcion": "15% dto",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/mountain-house"
+    },
+    {
+      "titulo": "ARANZA BISTRÓ",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/aranza-bistro"
+    },
+    {
+      "titulo": "Sajj Shawarmas",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/sajj-shawarmas"
     },
     {
       "titulo": "Ópticas Alemanas",
@@ -1334,6 +1559,11 @@
       "titulo": "AVIS® Rent a Car",
       "descripcion": "30% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/avis-rent-a-car"
+    },
+    {
+      "titulo": "Farmex",
+      "descripcion": "Hasta 20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/farmex-dto"
     },
     {
       "titulo": "Clínica Imet",
@@ -1366,9 +1596,19 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/sabor-y-aroma"
     },
     {
+      "titulo": "El mesón de la Patagonia",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/el-meson-de-la-patagonia-dto"
+    },
+    {
       "titulo": "Taringa",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/taringa-20"
+    },
+    {
+      "titulo": "Clínica Bast",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/clinica-bast"
     },
     {
       "titulo": "LA FÁBRICA",
@@ -1394,6 +1634,26 @@
       "titulo": "Restaurant KAI",
       "descripcion": "20% dcto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/restaurant-kai"
+    },
+    {
+      "titulo": "Taringa",
+      "descripcion": "40% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/taringa-40visa"
+    },
+    {
+      "titulo": "Brasas del Arriero",
+      "descripcion": "40% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/brasas-del-arriero-40visa"
+    },
+    {
+      "titulo": "La Isla Restobar Iquique",
+      "descripcion": "40% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/la-isla-restobar-iquique-40visa"
+    },
+    {
+      "titulo": "TURIN RISTORANTE",
+      "descripcion": "40% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/turin-ristorante-visa"
     },
     {
       "titulo": "ESTACIONAMIENTO AUTOPARK",
@@ -1431,14 +1691,9 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/maxo-dto"
     },
     {
-      "titulo": "LUDÓVICA",
+      "titulo": "Doite",
       "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/ludovica"
-    },
-    {
-      "titulo": "Lineatre",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/lineatre-dto"
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/doite-dto"
     },
     {
       "titulo": "Termas Cochamó",
@@ -1486,21 +1741,6 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/ecodisfraz-cl-dto"
     },
     {
-      "titulo": "Farmex",
-      "descripcion": "Hasta 20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/farmex-dto"
-    },
-    {
-      "titulo": "Enkai Asian Food",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/enkai-asian-food-dto"
-    },
-    {
-      "titulo": "Orquídea",
-      "descripcion": "25% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/orquidea"
-    },
-    {
       "titulo": "ToGo",
       "descripcion": "25% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/togo"
@@ -1516,6 +1756,11 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/clinica-dental-santorini"
     },
     {
+      "titulo": "Bouden",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/bouden"
+    },
+    {
       "titulo": "Laboratorio Bioclinic",
       "descripcion": "Hasta 20% dto",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/laboratorio-bioclinic"
@@ -1524,6 +1769,16 @@
       "titulo": "AKALI",
       "descripcion": "Hasta 40% dto",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/akali"
+    },
+    {
+      "titulo": "Bravo Cabrera",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/bravo-cabrera"
+    },
+    {
+      "titulo": "YADO BY ASIA",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/yado-by-asia"
     },
     {
       "titulo": "Nikkei 419",
@@ -1551,6 +1806,11 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/bigu"
     },
     {
+      "titulo": "CAFÉ COSTANERA",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/cafe-costanera"
+    },
+    {
       "titulo": "MapuWeñimen",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/mapuwenimen"
@@ -1559,6 +1819,16 @@
       "titulo": "Spa & Wellness Dr. Roy Sothers",
       "descripcion": "15% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/spa-wellness-dto"
+    },
+    {
+      "titulo": "VIOLETA RESTAURANT",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/violeta-restaurant"
+    },
+    {
+      "titulo": "Boreal Bar",
+      "descripcion": "20% dto",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/boreal-bar"
     },
     {
       "titulo": "Restaurante BBQ",
@@ -1574,6 +1844,16 @@
       "titulo": "Casa Nativa",
       "descripcion": "30% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/casa-nativa"
+    },
+    {
+      "titulo": "ABTAO",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/abtao"
+    },
+    {
+      "titulo": "La Cocina de Javier",
+      "descripcion": "30% dto",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/la-cocina-de-javier"
     },
     {
       "titulo": "LAM BURGUESA",
@@ -1596,6 +1876,11 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/amai-clinica-dental"
     },
     {
+      "titulo": "Don Talo",
+      "descripcion": "30% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/don-talo"
+    },
+    {
       "titulo": "Burger Home Café",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/burger-home-cafe"
@@ -1611,19 +1896,24 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/bar-medanoso-20"
     },
     {
-      "titulo": "Restaurant Urbano 136",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/restaurant-urbano-136"
-    },
-    {
-      "titulo": "La Joya Cantina & Sanguches",
-      "descripcion": "20% dto",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/la-joya-cantina-sanguches"
-    },
-    {
       "titulo": "New City",
       "descripcion": "20% dto.",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/new-city-dto"
+    },
+    {
+      "titulo": "Bon Sushi",
+      "descripcion": "20% dto",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/bon-sushi"
+    },
+    {
+      "titulo": "Ari Nikkei",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/ari-nikkei-20"
+    },
+    {
+      "titulo": "Dolce",
+      "descripcion": "20% dto.",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/dolce-20dto"
     },
     {
       "titulo": "Caprese",
@@ -1636,6 +1926,11 @@
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/mandala-food-and-bar"
     },
     {
+      "titulo": "MARDELI",
+      "descripcion": "20% dto",
+      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/mardeli"
+    },
+    {
       "titulo": "La Casona del Ají",
       "descripcion": "20% dto",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/casona-del-aji"
@@ -1644,16 +1939,6 @@
       "titulo": "Bao Bar",
       "descripcion": "25% dto",
       "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/bao-bar"
-    },
-    {
-      "titulo": "Ricks Bar   Terrado Suites Iquique",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/ricks-bar"
-    },
-    {
-      "titulo": "Wanted Burger",
-      "descripcion": "20% dto.",
-      "enlace": "https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/wanted-burger"
     }
   ]
 }

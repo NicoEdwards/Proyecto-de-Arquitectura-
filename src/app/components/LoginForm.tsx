@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import {
   Box,
@@ -9,49 +9,47 @@ import {
   useTheme,
   Paper,
   Alert,
-} from "@mui/material";
-import { useFormik } from "formik";
-import * as Yup from "yup";
-import { useState } from "react";
-import React from "react";
+} from '@mui/material';
+import { useFormik } from 'formik';
+import * as Yup from 'yup';
+import { useState } from 'react';
+import React from 'react';
 
 export default function LoginForm() {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
-  const [error, setError] = useState("");
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  const [error, setError] = useState('');
 
   const formik = useFormik({
     initialValues: {
-      email: "",
-      password: "",
+      email: '',
+      password: '',
     },
     validationSchema: Yup.object({
-      email: Yup.string()
-        .email("Correo inválido")
-        .required("Campo obligatorio"),
-      password: Yup.string()
-        .min(4, "Mínimo 4 caracteres")
-        .required("Campo obligatorio"),
+      email: Yup.string().email('Correo inválido').required('Campo obligatorio'),
+      password: Yup.string().min(4, 'Mínimo 4 caracteres').required('Campo obligatorio'),
     }),
-    onSubmit: async (values) => {
-      setError(""); // limpiar errores previos
+    onSubmit: async values => {
+      setError('');
       try {
-        //la llamada a API
-        const res = await fetch("https://tu-api.deno.dev/login", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
+        const response = await fetch('http://localhost:8000/login', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
           body: JSON.stringify(values),
         });
 
-        if (!res.ok) {
-          throw new Error("Credenciales inválidas");
+        if (!response.ok) {
+          throw new Error('Credenciales inválidas');
         }
 
-        const data = await res.json();
-        console.log("Login exitoso:", data);
-        // Aquí podrías redirigir al dashboard, guardar token, etc.
+        const data = await response.json();
+        console.log('Login exitoso:', data);
+        globalThis.location.href = '/dashboard';
       } catch (err) {
-        setError("Usuario o contraseña incorrectos");
+        console.error(err);
+        setError('Usuario o contraseña incorrectos');
       }
     },
   });
@@ -65,7 +63,7 @@ export default function LoginForm() {
       bgcolor="#f0f2f5"
       p={2}
     >
-      <Paper elevation={3} sx={{ p: 4, width: isMobile ? "100%" : 400 }}>
+      <Paper elevation={3} sx={{ p: 4, width: isMobile ? '100%' : 400 }}>
         <Typography variant="h5" mb={3} textAlign="center">
           Iniciar Sesión
         </Typography>
@@ -84,8 +82,8 @@ export default function LoginForm() {
             name="email"
             label="Correo electrónico"
             value={formik.values.email}
-            onChange={(e) => {
-              setError(""); // borra el error si vuelve a escribir
+            onChange={e => {
+              setError('');
               formik.handleChange(e);
             }}
             onBlur={formik.handleBlur}
@@ -100,21 +98,15 @@ export default function LoginForm() {
             label="Contraseña"
             type="password"
             value={formik.values.password}
-            onChange={(e) => {
-              setError("");
+            onChange={e => {
+              setError('');
               formik.handleChange(e);
             }}
             onBlur={formik.handleBlur}
             error={formik.touched.password && Boolean(formik.errors.password)}
             helperText={formik.touched.password && formik.errors.password}
           />
-          <Button
-            color="primary"
-            variant="contained"
-            fullWidth
-            type="submit"
-            sx={{ mt: 2 }}
-          >
+          <Button color="primary" variant="contained" fullWidth type="submit" sx={{ mt: 2 }}>
             Entrar
           </Button>
         </form>

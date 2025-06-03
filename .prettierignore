@@ -1,0 +1,14 @@
+# Ignorar la carpeta de dependencias
+node_modules/
+# Ignorar la build de Next.js
+.next/
+out/
+# Ignorar la build de producción
+build/
+# Ignorar cobertura de tests
+coverage/
+# Ignorar variables de entorno
+.env
+.env.local
+.env.development
+.env.production

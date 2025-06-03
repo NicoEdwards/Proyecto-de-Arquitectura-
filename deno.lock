@@ -2935,12 +2935,15 @@
     }
   },
   "redirects": {
+    "https://cdn.skypack.dev/new/playwright@v1.52.0/dist=es2019": "https://cdn.skypack.dev/error/build:playwright@v1.52.0-4GWkTKY1JnckHS5lcr0l",
+    "https://cdn.skypack.dev/playwright?dts": "https://cdn.skypack.dev/new/playwright@v1.52.0/dist=es2019",
     "https://deno.land/std/http/server.ts": "https://deno.land/std@0.224.0/http/server.ts",
     "https://deno.land/x/astral/mod.ts": "https://deno.land/x/astral@0.3.5/mod.ts",
     "https://deno.land/x/dotenv/mod.ts": "https://deno.land/x/dotenv@v3.2.2/mod.ts",
     "https://esm.sh/zod@v3.22.4": "https://esm.sh/zod@3.22.4"
   },
   "remote": {
+    "https://cdn.skypack.dev/error/build:playwright@v1.52.0-4GWkTKY1JnckHS5lcr0l": "3b70f73c6aabf0cba420e41c2fea8d79f8ff877b57d0680d75c7d28405ef7471",
     "https://deno.land/std@0.154.0/_util/assert.ts": "e94f2eb37cebd7f199952e242c77654e43333c1ac4c5c700e929ea3aa5489f74",
     "https://deno.land/std@0.154.0/_wasm_crypto/lib/deno_std_wasm_crypto.generated.mjs": "dfcd6777d05345362c70f9f2c49abba3ed3f925fccfcf725abe2d16d51819433",
     "https://deno.land/std@0.154.0/_wasm_crypto/mod.ts": "6c60d332716147ded0eece0861780678d51b560f533b27db2e15c64a4ef83665",

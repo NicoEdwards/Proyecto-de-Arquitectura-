@@ -1,20 +1,33 @@
 import { serve } from 'https://deno.land/std@0.224.0/http/server.ts'; //revisarlo
 import { create, verify, getNumericDate, Payload } from 'https://deno.land/x/djwt@v3.0.1/mod.ts';
-import { create, getNumericDate } from 'https://deno.land/x/djwt@v3.0.1/mod.ts';
 import { connectToDatabase } from '../database/client.ts';
 import addUser from './add-user.ts';
 import getUser from './get-user.ts';
 import { extraerPromocionesDesdeUrl } from "./fetch_html.ts";
+import { usersCollection } from '../database/collections/users.ts';
+import { v4 as uuidv4 } from 'uuid';
+import { fetchHTML } from './falabellascraping.ts';
 
 const promociones = await extraerPromocionesDesdeUrl("https://www.bancofalabella.cl/descuentos");
 console.log("Promociones obtenidas:", promociones);
+
 //Conexión a base de datos
 await connectToDatabase();
 
-//en el mismo archivo del createKey
+// Clave secreta para JWT
 const JWT_SECRET = 'mi_clave_super_secreta';
 
-//archivo aparte para la clave secreta
+// Función para agregar usuario
+async function addUser(email: string, password: string) {
+  const existingUser = await usersCollection.findOne({ email });
+  if (existingUser) {
+    throw new Error('Usuario ya existe');
+  }
+  await usersCollection.insertOne({ userId: uuidv4(), email, password });
+  return { success: true };
+}
+
+// Función para crear clave para JWT (si decides implementarlo más adelante)
 async function createKey() {
   return await crypto.subtle.importKey(
     'raw',
@@ -26,6 +39,7 @@ async function createKey() {
 }
 const key = await createKey();
 
+/*<<<<<<< main
 async function createJWT(email: string) {
   return await create({ alg: 'HS256', typ: 'JWT' }, { email, exp: getNumericDate(60 * 60) }, key);
 }
@@ -33,6 +47,15 @@ serve(
   async (req: Request) => {
     const url = new URL(req.url);
     console.log('req: ', req);
+    
+    if (url.pathname === '/register' && req.method === 'POST') {
+    const { email, password } = await req.json();
+    try {
+      const result = await addUser(email, password);
+      return new Response(JSON.stringify(result), {
+        headers: { 'Content-Type': 'application/json' },
+      };
+    }
 
     if (req.method === 'OPTIONS') {
       return new Response(null, {
@@ -43,6 +66,16 @@ serve(
           'Access-Control-Allow-Headers': 'Content-Type',
           'Access-Control-Allow-Credentials': 'true',
         },
+=======
+serve(async req => {
+  const url = new URL(req.url);
+
+  if (url.pathname === '/register' && req.method === 'POST') {
+    const { email, password } = await req.json();
+    try {
+      const result = await addUser(email, password);
+      return new Response(JSON.stringify(result), {
+        headers: { 'Content-Type': 'application/json' },
       });
     }
 
@@ -113,10 +146,18 @@ serve(
 /*
   if (url.pathname === '/protected' && req.method === 'GET') {
     console.log('req: ', req);
+  // Ruta para hacer web scraping
+  if (url.pathname === '/fetch-html' && req.method === 'GET') {
+    const fixedUrl = 'https://www.bancofalabella.cl/descuentos'; // Cambia esta URL por la que desees scrapear
 
-    const payload = await verifyToken(req);
-    if (!payload) return new Response('Acceso denegado', { status: 403 });
-    return new Response(`Hola ${payload.email}, acceso concedido`);
+    const html = await fetchHTML(fixedUrl);
+    if (html === null) {
+      return new Response('Failed to fetch HTML.', { status: 500 });
+    }
+
+    return new Response(html, {
+      headers: { 'Content-Type': 'text/html' },
+    });
   }
     */
 //return new Response('Not found', { status: 404 });
@@ -137,3 +178,6 @@ async function verifyToken(req: Request) {
   } catch {
     return false;
   }*/
+/*
+  return new Response('Not found', { status: 404 });
+});/*

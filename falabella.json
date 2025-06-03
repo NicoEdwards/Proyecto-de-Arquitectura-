@@ -1,0 +1,703 @@
+{
+  "Miércoles": [
+    {
+      "titulo": "40% dcto en Palumbo sin tope",
+      "descripcion": "En servicios de manos, pies, pestañas y cejas.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/palumbo"
+    },
+    {
+      "titulo": "40% dcto en Mr. Pretzels",
+      "descripcion": "Exclusivo presencial sin tope.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/mr-pretzel"
+    },
+    {
+      "titulo": "40% dcto en Boost",
+      "descripcion": "Exclusivo presencial sin tope.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/boost"
+    },
+    {
+      "titulo": "40% dcto en Domino's Pizza",
+      "descripcion": "En el total de la compra sin tope.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/dominos-pizza"
+    },
+    {
+      "titulo": "40% dcto en Yogen Früz",
+      "descripcion": "Exclusivo presencial sin tope.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/yogen-fruz"
+    },
+    {
+      "titulo": "Hasta 40% dcto en Tropicalia",
+      "descripcion": "Exclusivo presencial",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/tropicalia"
+    },
+    {
+      "titulo": "20% dcto en carnes",
+      "descripcion": "Exclusivo con tu CMR y Débito Banco Falabella",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/descuentos-tottus-miercoles"
+    },
+    {
+      "titulo": "40% dcto en De Costa a Costa",
+      "descripcion": "Exclusivo pagando con Tarjeta CMR Elite",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/40-de-costa-a-costa"
+    },
+    {
+      "titulo": "40% dcto en bar The Green Room",
+      "descripcion": "Exclusivo pagando con Tarjeta CMR Elite",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/the-green-room"
+    },
+    {
+      "titulo": "Hasta 40% dcto en Miércoles Gourmet",
+      "descripcion": "Exclusivo presencial en restaurantes seleccionados",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/miercoles-gourmet-cmr"
+    },
+    {
+      "titulo": "40% dcto en Chuck E Cheese sin tope",
+      "descripcion": "En la carga de minutos",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/chuck-e-cheese"
+    },
+    {
+      "titulo": "25% dcto en Turbus sin tope",
+      "descripcion": "En pasaje semicama y salón cama",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/turbus"
+    },
+    {
+      "titulo": "Hasta 40% dcto en total boleta",
+      "descripcion": "En compras presenciales y online en www.beauty.plus",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/beauty plus"
+    },
+    {
+      "titulo": "40% dcto en Velvet Bakery",
+      "descripcion": "En el total de la compra, exclusivo presencial.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/velvet-bakery"
+    }
+  ],
+  "Martes": [
+    {
+      "titulo": "40% dcto en Papa John´s",
+      "descripcion": "En el total de la compra sin tope.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/Descuento-Papa Johns"
+    },
+    {
+      "titulo": "40% dcto en Pedro, Juan & Diego",
+      "descripcion": "En total boleta exclusivo para compras presenciales",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/pedro-juan-y-diego"
+    },
+    {
+      "titulo": "40% dcto en Dunkin",
+      "descripcion": "En el total de la compra sin tope.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/dunkin"
+    },
+    {
+      "titulo": "40% dcto en Biancolatte",
+      "descripcion": "Exclusivo presencial sin tope.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/biancolatte"
+    },
+    {
+      "titulo": "40% dcto en Flores de Ocoa",
+      "descripcion": "Exclusivo online pagando con Tarjeta CMR Elite",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/flores-deocoa"
+    },
+    {
+      "titulo": "20% dcto en pollos y pavos",
+      "descripcion": "Exclusivo con tu CMR y Débito Banco Falabella",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/descuentos-tottus-martes"
+    },
+    {
+      "titulo": "40% dcto en Social",
+      "descripcion": "Exclusivo pagando con Tarjeta CMR Elite",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/social"
+    },
+    {
+      "titulo": "40% dcto en BordeRío",
+      "descripcion": "Exclusivo presencial en restaurantes seleccionados los días martes",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/martes-de-borderio"
+    },
+    {
+      "titulo": "40% dcto en Arena XP sin tope",
+      "descripcion": "En juego y merch (excluyendo snack, bebidas y cumpleaños)",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/arena-xp"
+    },
+    {
+      "titulo": "40% dcto en masgluglu.com",
+      "descripcion": "En productos seleccionados",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/masgluglu"
+    },
+    {
+      "titulo": "20% dcto en Take a Break",
+      "descripcion": "Descuento aplica pagando con tu CMR y Débito Banco Falabella en takeabreak.cl",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/take-a-break"
+    }
+  ],
+  "Todos los días": [
+    {
+      "titulo": "¡Paga menos con tus CMR Puntos!",
+      "descripcion": "Usa tus CMR puntos como medio de pago",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/paga-menos-con-cmr-puntos-campana"
+    },
+    {
+      "titulo": "25% dcto en entradas para Comic Con",
+      "descripcion": "Exclusivo online",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/comicon"
+    },
+    {
+      "titulo": "Desde 20% dcto Club de Restaurantes",
+      "descripcion": "Presencial, retiro en local y delivery",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/club-de-restaurantes"
+    },
+    {
+      "titulo": "Hasta 40% dcto en restaurantes de Vivo Panoramico",
+      "descripcion": "Exclusivo presencial en restaurantes seleccionados",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/40-restaurantes-vivo-panoramico"
+    },
+    {
+      "titulo": "Hasta 40% restaurantes Vivo Imperio",
+      "descripcion": "Exclusivo presencial en restaurantes y días seleccionados",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/40-de-dcto-en-restaurantes-vivo-imperio"
+    },
+    {
+      "titulo": "17 juegos Gratis adicionales",
+      "descripcion": "cargando $17.000 en bonus",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/happyland"
+    },
+    {
+      "titulo": "20% Dcto entradas en Parque Aventura sin tope",
+      "descripcion": "en compras presenciales y online",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/parque-aventura"
+    },
+    {
+      "titulo": "25% dcto para compra de entradas de eventos en Arena Monticello",
+      "descripcion": "a través de www.topticket.cl",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/top-ticket-monticello"
+    },
+    {
+      "titulo": "30% dcto en entradas para el Extraordinario Circo de Moana",
+      "descripcion": "En ubicaciones seleccionadas a través de ticketplus",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/el-extraordinario-circo-moana"
+    },
+    {
+      "titulo": "Hasta 60% dcto adicional sin tope en IntegraMédica",
+      "descripcion": "En servicios seleccionados",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/integramedica-60-descuento"
+    },
+    {
+      "titulo": "20% dcto Inmunomédica",
+      "descripcion": "Sin tope copago para laboratorio clínico",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/inmunomedica"
+    },
+    {
+      "titulo": "20% dcto Inmunoóptica",
+      "descripcion": "En Lentes Ópticos, Lentes de Sol y Accesorios",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/inmunooptica"
+    },
+    {
+      "titulo": "20% dcto en Clínica Santa Blanca",
+      "descripcion": "En todas las especialidades + 2 Limpiezas Full para 2 personas por $39.900",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/clinica-santa-blanca"
+    },
+    {
+      "titulo": "Pack Higiene Dental a $29.990",
+      "descripcion": "+ 60% dcto sin tope en tratamientos adicionales.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/clinica-everest-tratamientos"
+    },
+    {
+      "titulo": "Precio Preferencial en Club Ratón Pérez",
+      "descripcion": "Primera consulta odontopediátrica + limpieza: $34.500",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/club-raton-perez"
+    },
+    {
+      "titulo": "40% dcto en Clínica You Just Better",
+      "descripcion": "40% de descuento en traumatología y medicina del deporte\n20% dcto sin tope otros servicios de salud",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/clinica-you"
+    },
+    {
+      "titulo": "3 Despachos Gratis al mes en Falabella.com",
+      "descripcion": "Exclusivo con tu CMR Elite Mastercard",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/despacho-gratis-en-falabella"
+    },
+    {
+      "titulo": "Hasta 25% dcto en arriendos en AVIS",
+      "descripcion": "Exclusivo con tu CMR Elite Mastercard",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/25-dcto-en-avis"
+    },
+    {
+      "titulo": "20% dcto en southbites.cl",
+      "descripcion": "sin tope total boleta",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/south-bites"
+    },
+    {
+      "titulo": "20% dcto en Petvet.cl",
+      "descripcion": "Sin tope (Excluye alimento seco y atención veterinaria)",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/petvet"
+    },
+    {
+      "titulo": "20% dcto sin tope en Bienestar Animal",
+      "descripcion": "Inscribiéndote en el Club de Mascotas y pagando con tu CMR o Débito Banco Falabella",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/Bienestar-animal-flores-de-paz"
+    },
+    {
+      "titulo": "15% dcto en Dogin",
+      "descripcion": "Sin tope en toda la app, incluye: alojamiento, guardería y paseos",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/dogin"
+    },
+    {
+      "titulo": "12 a 24 cuotas sin interés",
+      "descripcion": "exclusivo en compras presenciales",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/ktm"
+    },
+    {
+      "titulo": "10% dcto en Econorent",
+      "descripcion": "En reservas online",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/econorent"
+    },
+    {
+      "titulo": "25% dcto en McParking sin tope",
+      "descripcion": "En estacionamiento para Aeropuerto de Santiago",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/mcparking"
+    },
+    {
+      "titulo": "25% dcto en Estacionamiento Aeropuerto",
+      "descripcion": "Para reservas en Aeropuerto de Santiago",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/estacionamiento-aeropuerto"
+    },
+    {
+      "titulo": "Acumula más CMR Puntos en Despegar y aprovecha cientos de Oportunidades Únicas",
+      "descripcion": "Pagando con tu tarjeta CMR",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/acumula-mas-CMR-Puntos-en-Despegar"
+    },
+    {
+      "titulo": "Acumula más CMR Puntos y aprovecha Oportunidades Únicas en Viajes Falabella",
+      "descripcion": "Pagando con tu tarjeta CMR",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/acumula-mas-cmr-puntos-en-viajes-falabella"
+    },
+    {
+      "titulo": "Acumula hasta el Triple de CMR Puntos en Shell",
+      "descripcion": "Pagando con CMR y Débito Banco Falabella en la App Micopiloto",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/Acumula-mas-CMR-Puntos-en-Shell"
+    },
+    {
+      "titulo": "30% dcto sin tope en arriendo de",
+      "descripcion": "Mini bodegas, bodegas móviles y oficinas",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/mibodega"
+    },
+    {
+      "titulo": "50% dcto en revisión pre compra - 40% dcto en revisión técnica - 40% dcto en grabado de patente",
+      "descripcion": "Sin tope en servicios seleccionados",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/carvuk"
+    },
+    {
+      "titulo": "3 meses gratis en Rappi Pro",
+      "descripcion": "Para clientes nuevos con el código: Falabellapro",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/rappi-pro"
+    },
+    {
+      "titulo": "Estacionamiento gratis en Mallplaza",
+      "descripcion": "2 estadías al mes exclusivo pagando con Tarjeta CMR Elite",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/parking-mallplaza"
+    },
+    {
+      "titulo": "25% dcto en Prosegur Alarmas",
+      "descripcion": "Sin tope en la mensualidad por todo el 2025 + Seguro Hogar Gratis",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/prosegur-alarms"
+    },
+    {
+      "titulo": "30% dcto en Cabify nuevos usuarios",
+      "descripcion": "Utilizando el cupón CABIBANCOFALABELLA25",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/cabify-usuarios-nuevos"
+    },
+    {
+      "titulo": "25% dcto en Whoosh",
+      "descripcion": "Utilizando el cupón W_BFALABELLA5R",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/whoosh"
+    },
+    {
+      "titulo": "20% Dcto en Mini Golf Parque Aventura",
+      "descripcion": "en compras presenciales y online",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/parque-aventura-mini-golf"
+    },
+    {
+      "titulo": "40% dcto en todos los Tours sección experiencias",
+      "descripcion": "Presencial y online a través de www.descorcha.com",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/descorcha-experiencias"
+    },
+    {
+      "titulo": "24 cuotas sin interés",
+      "descripcion": "en compras presenciales y online",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/keveri-grills"
+    },
+    {
+      "titulo": "40% dcto en productos Viña Sutil",
+      "descripcion": "a través de vwww.bardecopas.cl",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/vina-sutil"
+    },
+    {
+      "titulo": "¡Paga menos con tus CMR Puntos!",
+      "descripcion": "Usa tus CMR puntos como medio de pago",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/paga-menos-cmr-puntos"
+    },
+    {
+      "titulo": "25% dcto en Whoosh",
+      "descripcion": "Utilizando el cupón en la aplicación",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/whoosh-regiones"
+    },
+    {
+      "titulo": "15% dcto en entradas para La casa de Bluey",
+      "descripcion": "Exclusivo compra online.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/la-casa-de-bluey"
+    },
+    {
+      "titulo": "¡Canjea experiencias, antojos, panoramas y mucho más!",
+      "descripcion": "a través de  cmrpuntos.cl",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/canjes-cmr-puntos"
+    },
+    {
+      "titulo": "¡$10 mil de DCTO en Tottus App!",
+      "descripcion": "En tu primera compra sobre $29.990 con Tarjetas Banco Falabella",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/usd10-mil-de-dcto-en-tottus-app"
+    }
+  ],
+  "Lu.Sa.Do.": [
+    {
+      "titulo": "25% dcto en medicamentos",
+      "descripcion": "Comprando en Farmacias Ahumada 25% dcto sin tope en medicamentos",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/aon-farmacias-ahumada"
+    }
+  ],
+  "Lunes": [
+    {
+      "titulo": "40% dcto en el McCombo del mes",
+      "descripcion": "Exclusivo para compras en mesón y automac",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/mccombodelmes"
+    },
+    {
+      "titulo": "40% dcto en Doggis",
+      "descripcion": "En el total de la compra sin tope.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/doggis"
+    },
+    {
+      "titulo": "40% dcto en Juan Maestro",
+      "descripcion": "En el total de la compra sin tope",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/juan-maestro"
+    },
+    {
+      "titulo": "40% dcto en Tommy Beans",
+      "descripcion": "En el total de la compra exclusivo por la app sin tope.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/tommybeans"
+    },
+    {
+      "titulo": "40% dcto en Barrio Chick´en",
+      "descripcion": "En el total de la compra exclusivo por la app sin tope",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/barrio-chicken"
+    },
+    {
+      "titulo": "40% dcto en Lovdo",
+      "descripcion": "En el total de la compra sin tope.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/lovdo"
+    },
+    {
+      "titulo": "40% dcto en Skin Fit",
+      "descripcion": "Exclusivo pagando con Tarjeta CMR Elite",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/40-skin-fit"
+    },
+    {
+      "titulo": "6% dcto en el total de tu boleta",
+      "descripcion": "Exclusivo con tu CMR y Débito Banco Falabella",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/descuentos-tottus-lunes"
+    },
+    {
+      "titulo": "40% dcto en Naoki",
+      "descripcion": "Exclusivo pagando con Tarjeta CMR Elite",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/40-naoki"
+    },
+    {
+      "titulo": "Hasta 40% dcto en Sicily Pizzería",
+      "descripcion": "Exclusivo presencial",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/sicily-pizzeria"
+    },
+    {
+      "titulo": "40% dcto en Carnes a Punto",
+      "descripcion": "Exclusivo pagando con Tarjeta CMR Elite",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/carnes-a-punto"
+    },
+    {
+      "titulo": "Hasta 40% dcto en Mamut",
+      "descripcion": "Exclusivo presencial",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/mamut"
+    },
+    {
+      "titulo": "Hasta 40% dcto en Martina Lounge Bar",
+      "descripcion": "Exclusivo presencial",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/martina-lounge-bar"
+    }
+  ],
+  "Viernes": [
+    {
+      "titulo": "40% dcto en Juan Valdez en bebidas preparadas seleccionadas",
+      "descripcion": "En bebidas preparadas seleccionadas sin tope.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/juan-valdez"
+    },
+    {
+      "titulo": "40% dcto en Bocacielo",
+      "descripcion": "Exclusivo pagando con Tarjeta CMR Elite",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/bocacielo-elite"
+    },
+    {
+      "titulo": "Hasta 40% dcto en AlBosque",
+      "descripcion": "Exclusivo presencial",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/albosque"
+    },
+    {
+      "titulo": "20% dcto en Superzoo.cl",
+      "descripcion": "Sin tope en todo el sitio",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/superzoo"
+    }
+  ],
+  "Jueves": [
+    {
+      "titulo": "40% dcto en AM Dulcería",
+      "descripcion": "Exclusivo pagando con Tarjeta CMR Elite, presencial y online en productos AM",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/40-am-dulceria"
+    },
+    {
+      "titulo": "20% dcto en frutas y verduras",
+      "descripcion": "Exclusivo con tu CMR y Débito Banco Falabella",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/descuentos-tottus-jueves"
+    },
+    {
+      "titulo": "40% dcto en Olam",
+      "descripcion": "Exclusivo pagando con Tarjeta CMR Elite",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/olam"
+    },
+    {
+      "titulo": "40% dcto en Family Park",
+      "descripcion": "En juegos (excluye snack, juguetería, cumpleaños y bebidas)",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/family-park"
+    },
+    {
+      "titulo": "40% dcto en chocolaterías",
+      "descripcion": "Exclusivo con tarjetas Banco Falabella",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/pedidos-ya"
+    },
+    {
+      "titulo": "20% dcto en Dr. Pet",
+      "descripcion": "sin tope en productos presencial y online (excluye marca Brit Care y farmacia)",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/dr-pet"
+    },
+    {
+      "titulo": "20% dcto en Veterinaria Petsmann",
+      "descripcion": "sin tope en servicios seleccionados",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/petsmann"
+    },
+    {
+      "titulo": "40% dcto en Peaky Nuts",
+      "descripcion": "Presencial y online",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/peaky-nuts"
+    }
+  ],
+  "Sábado": [
+    {
+      "titulo": "Hasta 40% dcto en Taringa",
+      "descripcion": "Exclusivo presencial",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/taringa"
+    },
+    {
+      "titulo": "40% dcto en Kiara",
+      "descripcion": "Exclusivo pagando con Tarjeta CMR Elite",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/kiara"
+    },
+    {
+      "titulo": "Hasta 40% dcto en Sakura",
+      "descripcion": "en rolls y hosomakis",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/sakura"
+    }
+  ],
+  "Lunes a domingo": [
+    {
+      "titulo": "Beneficios mayo",
+      "descripcion": "Revisa todos nuestros descuentos aquí",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/beneficios-del-mes"
+    },
+    {
+      "titulo": "45% de descuento en Clínica Belenus",
+      "descripcion": "Sin tope total boleta (excluye creditos belenus)\nExclusivo presencial",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/clinica-belenus"
+    },
+    {
+      "titulo": "Salones VIP Primeclass",
+      "descripcion": "2 ingresos gratis al año con tu Tarjeta CMR Elite",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/primeclass"
+    },
+    {
+      "titulo": "Salones VIP Pacific Club",
+      "descripcion": "2 ingresos dobles gratis al año con tu Tarjeta CMR Elite",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/pacific-club"
+    },
+    {
+      "titulo": "30% dcto en House Bar",
+      "descripcion": "Exclusivo online sin tope.",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/house-bar"
+    }
+  ],
+  "Lu.Ma.Ju": [
+    {
+      "titulo": "Hasta 40% dcto en Berlin Doner Kebab",
+      "descripcion": "Exclusivo presencial",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/berlin-doner-kebab"
+    }
+  ],
+  "Lu.Mi.Vi.Sá.Do": [
+    {
+      "titulo": "Hasta 40% dcto en Vapiano",
+      "descripcion": "Exclusivo presencial",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/vapiano"
+    }
+  ],
+  "Lu.Mi.": [
+    {
+      "titulo": "Hasta 40% dcto en La Maestranza",
+      "descripcion": "Exclusivo presencial",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/la-maestranza"
+    },
+    {
+      "titulo": "Hasta 40% dcto en Bar Danés",
+      "descripcion": "Exclusivo presencial",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/danes"
+    }
+  ],
+  "lunes a domingo": [
+    {
+      "titulo": "Hasta 40% dcto restaurantes Mallplaza",
+      "descripcion": "Exclusivo presencial en restaurantes y días seleccionados",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/40-dcto-en-restaurantes-mallplaza"
+    }
+  ],
+  "Sa.Do": [
+    {
+      "titulo": "Hasta 40% dcto en Muu Steak y Tanta",
+      "descripcion": "Exclusivo en Isidora Goyenechea 3000",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/isidora-3000-sabado-y-domingo"
+    }
+  ],
+  "Sa.Do.": [
+    {
+      "titulo": "Hasta 40% de dcto en restaurantes Mercado Bulnes",
+      "descripcion": "Exclusivo presencial en restaurantes seleccionados",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/portal-bulnes"
+    }
+  ],
+  "De miércoles a sábado desde las 19:00 hrs": [
+    {
+      "titulo": "Hasta 40% dcto en restaurantes Santiago Open Gourmet",
+      "descripcion": "Exclusivo presencialmente en restaurantes seleccionados desde las 19:00 hrs",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/santiago-open-gourmet"
+    }
+  ],
+  "Lu. Ma. Mi.": [
+    {
+      "titulo": "Entradas con descuento",
+      "descripcion": "Desde $3.300 con Tarjetas Banco Falabella",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/cinemark"
+    }
+  ],
+  "Lu.Ma.Mi.": [
+    {
+      "titulo": "30% dcto en Combo Banco Falabella",
+      "descripcion": "Presencial  y online",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/cinemark-combo-banco-falabella"
+    }
+  ],
+  "Lu.Ma": [
+    {
+      "titulo": "30% dcto en entradas para JUMPIN sin tope",
+      "descripcion": "Presencial los lunes y martes, en Puerto Montt y Santiago",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/jumpin"
+    }
+  ],
+  "Ma.Mi": [
+    {
+      "titulo": "40% dcto en entradas para Desafio Escape Room",
+      "descripcion": "Online y presencial en Mallplaza los Dominicos",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/desafio-escape-room"
+    }
+  ],
+  "Ju": [
+    {
+      "titulo": "Hasta 50% dcto  sin tope Jueves de Belleza en Mallplaza",
+      "descripcion": "Presencial en comercios seleccionados + dctos extra con tarjera CMR Elite",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/jueves-de-belleza-mallplaza"
+    }
+  ],
+  "Todos los dias": [
+    {
+      "titulo": "Hasta 12 Cuotas sin Interés",
+      "descripcion": "Pagando con tu CMR en clínicas Red Salud UC Christus",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/red-salud-uc-christus"
+    },
+    {
+      "titulo": "Hasta 36 Cuotas sin Interés",
+      "descripcion": "Pagando con tu CMR en Thermomix",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/thermomix"
+    },
+    {
+      "titulo": "18 Cuotas sin Interés",
+      "descripcion": "Pagando con tu CMR en Hyla",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/hyla"
+    },
+    {
+      "titulo": "50% dcto en 2 traslados al año",
+      "descripcion": "Exclusivo con tu CMR Elite Mastercard",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/despegar-mastercard"
+    }
+  ],
+  "Lunes a miércoles": [
+    {
+      "titulo": "30% dcto en Ésika",
+      "descripcion": "En compras presenciales de lunes a miércoles",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/esika"
+    },
+    {
+      "titulo": "30% dcto en L´Bel",
+      "descripcion": "En compras presenciales de lunes a miércoles",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/l-bel"
+    }
+  ],
+  "Lu.Mi": [
+    {
+      "titulo": "Hasta 40% dcto en Tigre Bravo",
+      "descripcion": "Exclusivo presencial",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/tigre-bravo"
+    }
+  ],
+  "Lunes a domingos": [
+    {
+      "titulo": "10% dcto sin tope adicional",
+      "descripcion": "En servicio de mantención y neumáticos seleccionados",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/zs-motor"
+    }
+  ],
+  "Todos los Días": [
+    {
+      "titulo": "Hasta $7.000 de dcto en Lipigas",
+      "descripcion": "Call Center o Web, una compra al mes máximo 2 cilindros",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/lipigas"
+    },
+    {
+      "titulo": "60% dcto en Diario Financiero",
+      "descripcion": "Sin tope suscripción DF Digital",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/diario-financiero"
+    }
+  ],
+  "De lunes a miércoles": [
+    {
+      "titulo": "30% dcto en Cabify",
+      "descripcion": "Utilizando el cupón CABIBANCOFALABELLA5",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/cabify"
+    }
+  ],
+  "Del 20 al 25 de mayo": [
+    {
+      "titulo": "The Top Mallplaza",
+      "descripcion": "Más de 50 locales con multicategorías a $4.990",
+      "enlace": "https://www.bancofalabella.cl/descuentos/detalle/the-top-mallplaza"
+    }
+  ]
+}

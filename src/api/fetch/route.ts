@@ -1,4 +1,5 @@
-import { fetchHTML } from "../fetch_html.ts";
+import { fetchHTML } from "../falabellascraping.ts";
+
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);

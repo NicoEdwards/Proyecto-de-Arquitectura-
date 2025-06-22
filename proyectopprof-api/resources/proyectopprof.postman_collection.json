@@ -1,0 +1,238 @@
+{
+  "info": {
+    "_postman_id": "3eba905b-fbcf-41bf-8062-346ed018f9e6",
+    "name": "proyectopprof",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "29984797"
+  },
+  "item": [
+    {
+      "name": "root",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}",
+          "host": [
+            "{{baseUrl}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "userGet",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/users",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "userCreate",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"email\": \"test@test.com\",\r\n    \"password\": \"12345678\",\r\n    \"bankIds\": []\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/users",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "userUpdate",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"password\": \"12345678\",\r\n    \"bankIds\": [\"bci\", \"chile\"]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/users",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "authLogin",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"email\": \"test@test.com\",\r\n    \"password\": \"12345678\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/auth/login",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "auth",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "feedsGetAllByUserId",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/feeds?limit=9&page=1&search=descuento",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "feeds"
+          ],
+          "query": [
+            {
+              "key": "limit",
+              "value": "9"
+            },
+            {
+              "key": "page",
+              "value": "1"
+            },
+            {
+              "key": "search",
+              "value": "descuento"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "scraperScrapeBci",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/scraper/bci",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "scraper",
+            "bci"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "scraperScrapeChile",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/scraper/chile",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "scraper",
+            "chile"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{token}}",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8000",
+      "type": "string"
+    },
+    {
+      "key": "token",
+      "value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTVlOWU2ZDE1NjEzOTJlN2ZmZGMyOCIsImV4cCI6MTc1MDQ2OTA4OH0.uhzMkYwJU1yxlm_-NHXaeYqMAYg1YGEMjjdHXXqTHX7esmUtM9exMVazHFbCH_R2ag5wwY4jShfgIwkWFUHFhA",
+      "type": "string"
+    }
+  ]
+}

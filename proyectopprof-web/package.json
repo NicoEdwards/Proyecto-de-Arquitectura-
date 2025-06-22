@@ -1,0 +1,49 @@
+{
+  "name": "proyectopprof",
+  "private": true,
+  "scripts": {
+    "clean:all": "sh -c \"find . -type d \\\\( -name 'node_modules' -o -name '.next' \\\\) -prune -exec rm -rf {} + && rm -f next-env.d.ts *.tsbuildinfo deno.lock package-lock.json\"",
+    "install": "deno install --allow-scripts",
+    "update": "deno outdated --update",
+    "format": "prettier --write .",
+    "lint": "tsc --noEmit && next lint",
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.2.6",
+    "@hookform/resolvers": "^5.1.1",
+    "@mui/icons-material": "^7.1.2",
+    "@mui/material": "^7.1.2",
+    "@mui/material-nextjs": "^7.1.1",
+    "jwt-decode": "^4.0.0",
+    "mongoose": "^8.16.0",
+    "next": "15.3.3",
+    "notistack": "^3.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.58.1",
+    "react-infinite-scroll-component": "^6.1.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@next/eslint-plugin-next": "^15.3.4",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-check-file": "^3.3.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

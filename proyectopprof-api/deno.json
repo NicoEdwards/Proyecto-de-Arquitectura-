@@ -1,0 +1,28 @@
+{
+  "unstable": ["cron"],
+  "compilerOptions": {
+    "lib": ["deno.ns", "deno.unstable", "dom", "dom.iterable", "esnext"]
+  },
+  "tasks": {
+    "clean:all": "sh -c \"rm -f deno.lock\"",
+    "install": "deno install --allow-scripts",
+    "update": "deno outdated --update --latest",
+    "format": "deno fmt",
+    "lint": "deno lint --fix",
+    "dev": "deno run -A --watch src/index.ts",
+    "start": "deno run -A --cached-only src/index.ts"
+  },
+  "imports": {
+    "@/": "./src/",
+    "@astral/astral": "jsr:@astral/astral@^0.5.3",
+    "@oak/oak": "jsr:@oak/oak@^17.1.4",
+    "@std/dotenv": "jsr:@std/dotenv@^0.225.5",
+    "@std/http": "jsr:@std/http@^1.0.18",
+    "bcrypt/": "https://deno.land/x/bcrypt@v0.4.1/",
+    "cors/": "https://deno.land/x/cors@v1.2.2/",
+    "djwt/": "https://deno.land/x/djwt@v3.0.2/",
+    "mongodb": "npm:mongodb@^6.17.0",
+    "mongoose": "npm:mongoose@^8.16.0",
+    "zod": "npm:zod@^3.25.67"
+  }
+}

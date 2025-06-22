@@ -1,0 +1,25 @@
+{
+  // Formatting
+  // ".editorconfig"
+  "files.encoding": "utf8", // charset
+  "files.insertFinalNewline": true, // insert_final_newline
+  "files.trimTrailingWhitespace": true, // trim_trailing_whitespace
+  "files.eol": "\n", // end_of_line
+  "editor.insertSpaces": true, // indent_style
+  "editor.tabSize": 2, // indent_size
+  "editor.wordWrapColumn": 80, // max_line_length
+  "[markdown]": { "files.trimTrailingWhitespace": false }, // trim_trailing_whitespace for Markdowns
+
+  // Formatters
+  "editor.formatOnSave": true,
+  "deno.enable": false, // "Deno": Disable extension
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit", // Organize imports automatically
+      "source.fixAll.eslint": "explicit" // "ESLint": Fix errors automatically
+    }
+  },
+  "[html][css][scss][javascript][javascriptreact][typescriptreact][dockercompose][markdown][typescript][json][jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // "Prettier - Code formatter"
+  }
+}

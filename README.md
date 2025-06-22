@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Project Description
 
-## Getting Started
+Web app con Deno para mantener a los usuarios informados sobre la información pública de los bancos; descuentos, convenios e inversiones. No se ingresan datos bancarios, simplemente se elige el tipo de cuenta que el usuario posee (ej: cuenta corriente en banco X) y se muestra un feed que funciona de forma similar al de rr.ss. (ej: Twitter o Instagram) con esta información.
 
-First, run the development server:
+## To-Do
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Avance 1
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [x] Login básico, cerrar sesión, manejo de tokens de sesión, llamada a la base de datos para validar contraseña. No obligatorio formulario de registro de usuarios.
+- [x] Front-end responsive, Smartphone, Tablet y Desktop.
+- [x] Ventanas de carga y toast donde corresponda.
+- [x] Conexión con base de datos a través de API, al menos una funcionalidad debe realizar preguntas a la base de datos (independiente del login).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Avance 2
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [x] Componentes que muestran la información obtenida de las páginas de los bancos en el feed de los usuarios logeados.
+- [x] Estructura del feed.
+- [x] Filtro de preferencias.
+- [ ] Notificaciones emergentes de interacción con la página.
+- [ ] Al menos una funcionalidad presenta pruebas unitarias con un coverage superior al 80% para dicha funcionalidad.
+- [x] Solución operativa en ambiente Cloud (no únicamente local en un computador).
 
-## Learn More
+3. Buenas prácticas
 
-To learn more about Next.js, take a look at the following resources:
+- [x] El código disponible en el repositorio cumple con los estándares de código. Está todo el código en inglés y se utilizan nombres de variables y funciones que representen correctamente lo que son:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+      - Incluye base de datos (nombres de tablas y atributos deberán estar en inglés).
+      - Los nombres de los archivos y carpetas del código también deben estar en inglés.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [x] Cada función está debidamente comentada en el código (Los comentarios pueden estar en español).
+- [x] La documentación general se encuentra al día (Puede estar en español).
+- [x] El branching model es apropiado al desarrollo.
+- [x] Mínimo una rama Master y una por cada épica/funcionalidad.
+- [x] Cada commit está asociado a una tarea en Jira.
+- [x] Se realiza al menos un commit por semana, por cada miembro del equipo
+- [ ] Bonus: El código completo tiene más del 50% de coverage de pruebas unitarias.

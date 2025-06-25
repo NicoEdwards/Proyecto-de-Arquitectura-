@@ -1,0 +1,36 @@
+@startuml "FinSight - Diagrama de Contenedores C4"
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+title "FinSight - Diagrama de Contenedores"
+
+Person(user, "Usuario Joven", "Busca asesoría en decisiones bancarias")
+Person(admin, "Administrador", "Gestiona la plataforma")
+
+System_Boundary(finsight_system, "FinSight") {
+    Container(web_app, "Aplicación Web", "Next.js, React, TypeScript", "Interfaz de usuario para dashboard personalizado, autenticación y gestión de perfiles")
+    
+    Container(api, "API REST", "Next.js API Routes", "Provee endpoints para autenticación, gestión de usuarios y beneficios personalizados")
+    
+    Container(database, "Base de Datos", "Base de datos relacional", "Almacena perfiles de usuarios, beneficios, preferencias e historial")
+    
+    Container(scraping_service, "Servicio de Web Scraping", "Scripts especializados", "Extrae y procesa datos de sitios bancarios")
+}
+
+System_Ext(banco_chile, "Banco de Chile", "Fuente de datos de beneficios")
+System_Ext(bci, "BCI", "Fuente de datos de convenios")
+System_Ext(falabella, "Banco Falabella", "Fuente de promociones")
+
+Rel(user, web_app, "Usa", "HTTPS")
+Rel(admin, web_app, "Administra", "HTTPS")
+
+Rel(web_app, api, "Consume", "HTTP/REST")
+Rel(api, database, "Lee/Escribe", "SQL")
+Rel(api, scraping_service, "Solicita datos", "Función")
+
+Rel(scraping_service, banco_chile, "Extrae datos", "HTTPS")
+Rel(scraping_service, bci, "Recolecta información", "HTTPS")
+Rel(scraping_service, falabella, "Obtiene promociones", "HTTPS")
+
+@enduml

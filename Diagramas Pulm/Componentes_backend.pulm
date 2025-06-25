@@ -1,0 +1,48 @@
+@startuml "FinSight - Diagrama de Componentes Backend"
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+title "FinSight - Diagrama de Componentes del Backend"
+
+Container(web_app, "Aplicación Web", "Next.js, React", "Frontend de la aplicación")
+Container(database, "Base de Datos", "Base de datos relacional", "Persistencia de datos")
+
+Container_Boundary(api_boundary, "API REST (Next.js)") {
+    Component(auth_controller, "Auth Controller", "Next.js API Route", "Maneja autenticación y autorización")
+    Component(user_controller, "User Controller", "Next.js API Route", "Gestiona operaciones de usuarios")
+    Component(benefit_controller, "Benefit Controller", "Next.js API Route", "Maneja beneficios y personalización")
+    
+    Component(auth_service, "Auth Service", "TypeScript", "Lógica de autenticación JWT")
+    Component(user_service, "User Service", "TypeScript", "Lógica de negocio de usuarios")
+    Component(benefit_service, "Benefit Service", "TypeScript", "Motor de personalización de beneficios")
+    Component(scraping_service, "Scraping Service", "TypeScript", "Orquestación de web scraping")
+    
+    Component(user_repo, "User Repository", "TypeScript", "Acceso a datos de usuarios")
+    Component(benefit_repo, "Benefit Repository", "TypeScript", "Acceso a datos de beneficios")
+    
+    Component(scrapers, "Web Scrapers", "Scripts especializados", "Scrapers para Banco Chile, BCI, Falabella")
+}
+
+System_Ext(external_banks, "Sitios Bancarios", "Fuentes externas de datos")
+
+Rel(web_app, auth_controller, "POST /api/auth/login", "HTTPS")
+Rel(web_app, user_controller, "GET /api/users/profile", "HTTPS")
+Rel(web_app, benefit_controller, "GET /api/benefits/personalized", "HTTPS")
+
+Rel(auth_controller, auth_service, "Usa")
+Rel(user_controller, user_service, "Usa")
+Rel(benefit_controller, benefit_service, "Usa")
+
+Rel(auth_service, user_repo, "Valida credenciales")
+Rel(user_service, user_repo, "CRUD usuarios")
+Rel(benefit_service, benefit_repo, "Consulta beneficios")
+Rel(benefit_service, scraping_service, "Obtiene datos actualizados")
+
+Rel(user_repo, database, "SQL queries")
+Rel(benefit_repo, database, "SQL queries")
+
+Rel(scraping_service, scrapers, "Ejecuta scripts")
+Rel(scrapers, external_banks, "Web scraping", "HTTPS")
+
+@enduml

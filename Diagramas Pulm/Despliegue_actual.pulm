@@ -1,0 +1,41 @@
+@startuml "FinSight - Diagrama de Despliegue Actual"
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
+
+LAYOUT_WITH_LEGEND()
+
+title "FinSight - Diagrama de Despliegue Actual"
+
+Deployment_Node(user_device, "Dispositivo del Usuario", "Windows/Mac/Mobile") {
+    Deployment_Node(browser, "Navegador Web", "Chrome, Firefox, Safari") {
+        Container(web_app, "FinSight Web App", "Next.js, React", "Interfaz de usuario")
+    }
+}
+
+Deployment_Node(dev_environment, "Entorno de Desarrollo", "Local Machine") {
+    Deployment_Node(node_runtime, "Node.js Runtime", "Node.js 18+") {
+        Container(nextjs_app, "Aplicación Next.js", "Next.js Full-Stack", "Frontend + API + Web Scraping")
+    }
+    
+    Deployment_Node(local_db, "Base de Datos Local", "PostgreSQL/MySQL") {
+        ContainerDb(database, "FinSight DB", "Base de datos relacional", "Usuarios, beneficios, preferencias")
+    }
+    
+    Deployment_Node(file_system, "Sistema de Archivos", "Local Storage") {
+        Container(scraped_data, "Datos Scrapeados", "JSON Files", "bancochile.json, bci.json, falabella.json")
+    }
+}
+
+Deployment_Node(external_services, "Servicios Externos", "Internet") {
+    System_Ext(banco_chile, "Banco de Chile", "Sitio web oficial")
+    System_Ext(bci, "BCI", "Sitio web oficial")
+    System_Ext(falabella, "Banco Falabella", "Sitio web oficial")
+}
+
+Rel(web_app, nextjs_app, "API calls", "HTTPS")
+Rel(nextjs_app, database, "SQL queries", "TCP/IP")
+Rel(nextjs_app, scraped_data, "Read/Write", "File I/O")
+Rel(nextjs_app, banco_chile, "Web scraping", "HTTPS")
+Rel(nextjs_app, bci, "Web scraping", "HTTPS")
+Rel(nextjs_app, falabella, "Web scraping", "HTTPS")
+
+@enduml

@@ -1,0 +1,54 @@
+config:
+  target: 'http://localhost:8000'
+  phases:
+    # Fase 1: Carga normal (baseline)
+    - duration: 60
+      arrivalRate: 10
+      name: "Baseline - Carga Normal"
+    
+    # Fase 2: Carga media 
+    - duration: 120
+      arrivalRate: 50
+      name: "Carga Media"
+    
+    # Fase 3: Carga alta (pico estacional)
+    - duration: 180
+      arrivalRate: 100
+      name: "Pico Estacional"
+    
+    # Fase 4: Carga extrema (límite del sistema)
+    - duration: 60
+      arrivalRate: 200
+      name: "Carga Extrema"
+
+scenarios:
+  # Escenario 1: Autenticación y consulta de beneficios
+  - name: "Login y consulta beneficios"
+    weight: 70
+    flow:
+      - post:
+          url: "/login"
+          json:
+            email: "admin@demo.com"
+            password: "1234"
+          capture:
+            - json: "$.token"
+              as: "auth_token"
+      - get:
+          url: "/protected"
+          headers:
+            Authorization: "Bearer {{ auth_token }}"
+          
+  # Escenario 2: Solo consultas sin autenticación
+  - name: "Consultas directas"
+    weight: 30
+    flow:
+      - get:
+          url: "/protected"
+
+# Métricas esperadas según el perfil operacional
+expect:
+  - statusCode: 200
+  - contentType: json
+  - maxResponseTime: 1500  # Según RNF1: < 1.5 segundos
+

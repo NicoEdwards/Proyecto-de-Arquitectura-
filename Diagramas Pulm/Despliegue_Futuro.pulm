@@ -1,0 +1,45 @@
+@startuml "FinSight - Diagrama de Despliegue Futuro (Producción)"
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
+
+LAYOUT_WITH_LEGEND()
+
+title "FinSight - Diagrama de Despliegue Futuro (Producción)"
+
+Deployment_Node(user_device, "Dispositivo del Usuario", "Windows/Mac/Mobile") {
+    Deployment_Node(browser, "Navegador Web", "Chrome, Firefox, Safari") {
+        Container(web_app, "FinSight Web App", "Next.js, React", "Interfaz de usuario")
+    }
+}
+
+Deployment_Node(cloud_provider, "Proveedor Cloud", "AWS/Vercel/Azure") {
+    Deployment_Node(web_server, "Servidor Web", "Vercel/EC2") {
+        Container(nextjs_app, "Aplicación Next.js", "Next.js Full-Stack", "Frontend + API")
+    }
+    
+    Deployment_Node(app_server, "Servidor de Aplicaciones", "EC2/Container") {
+        Container(scraping_service, "Servicio de Scraping", "Node.js/Python", "Web scraping automatizado")
+    }
+    
+    Deployment_Node(database_server, "Servidor de Base de Datos", "RDS/Cloud SQL") {
+        ContainerDb(database, "FinSight DB", "PostgreSQL", "Datos de producción")
+    }
+    
+    Deployment_Node(scheduler, "Programador de Tareas", "Cron/Lambda") {
+        Container(cron_jobs, "Jobs Programados", "Serverless Functions", "Actualización automática de datos")
+    }
+}
+
+Deployment_Node(cdn, "CDN", "CloudFront/Vercel Edge") {
+    Container(static_assets, "Assets Estáticos", "CSS, JS, Images", "Contenido estático optimizado")
+}
+
+System_Ext(external_banks, "Sitios Bancarios", "Fuentes de datos externas")
+
+Rel(web_app, cdn, "Load assets", "HTTPS")
+Rel(web_app, nextjs_app, "API calls", "HTTPS")
+Rel(nextjs_app, database, "SQL queries", "TCP/IP")
+Rel(cron_jobs, scraping_service, "Trigger scraping", "HTTP")
+Rel(scraping_service, database, "Store data", "TCP/IP")
+Rel(scraping_service, external_banks, "Web scraping", "HTTPS")
+
+@enduml

@@ -1,0 +1,43 @@
+@startuml "FinSight - Flujo de Datos Principal"
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Dynamic.puml
+
+title "FinSight - Flujo de Datos Principal"
+
+participant "Usuario" as U
+participant "Web App" as W
+participant "API REST" as A
+participant "Auth Service" as AS
+participant "Benefit Service" as BS
+participant "Scraping Service" as SS
+participant "Base de Datos" as DB
+participant "Sitios Bancarios" as SB
+
+== Autenticación ==
+U -> W: 1. Inicia sesión
+W -> A: 2. POST /api/auth/login
+A -> AS: 3. Valida credenciales
+AS -> DB: 4. Consulta usuario
+DB -> AS: 5. Datos del usuario
+AS -> A: 6. Genera JWT token
+A -> W: 7. Token de autenticación
+W -> U: 8. Acceso al dashboard
+
+== Obtención de Beneficios Personalizados ==
+U -> W: 9. Solicita beneficios
+W -> A: 10. GET /api/benefits/personalized
+A -> BS: 11. Procesa solicitud
+BS -> DB: 12. Consulta perfil usuario
+DB -> BS: 13. Preferencias del usuario
+BS -> DB: 14. Consulta beneficios disponibles
+DB -> BS: 15. Datos de beneficios
+BS -> A: 16. Beneficios personalizados
+A -> W: 17. JSON con beneficios
+W -> U: 18. Dashboard personalizado
+
+== Actualización de Datos (Background) ==
+SS -> SB: 19. Web scraping programado
+SB -> SS: 20. Datos de beneficios
+SS -> DB: 21. Actualiza catálogo
+DB -> SS: 22. Confirmación
+
+@enduml

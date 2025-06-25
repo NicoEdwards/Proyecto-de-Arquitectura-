@@ -1,0 +1,24 @@
+@startuml "FinSight - Diagrama de Contexto C4"
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+title "FinSight - Diagrama de Contexto"
+
+Person(user, "Usuario Joven", "Persona de 18-35 años que busca asesoría en decisiones bancarias")
+Person(admin, "Administrador", "Encargado de gestionar contenido y usuarios de la plataforma")
+
+System(finsight, "FinSight", "Plataforma web que centraliza y personaliza información sobre beneficios bancarios")
+
+System_Ext(banco_chile, "Banco de Chile", "Sitio web con información de beneficios y descuentos")
+System_Ext(bci, "BCI", "Sitio web con información de beneficios y convenios")
+System_Ext(falabella, "Banco Falabella", "Sitio web con beneficios y promociones especiales")
+
+Rel(user, finsight, "Consulta beneficios personalizados", "HTTPS")
+Rel(admin, finsight, "Gestiona usuarios y contenido", "HTTPS")
+
+Rel(finsight, banco_chile, "Extrae datos de beneficios", "Web Scraping")
+Rel(finsight, bci, "Recolecta información de convenios", "Web Scraping")
+Rel(finsight, falabella, "Obtiene promociones especiales", "Web Scraping")
+
+@enduml
